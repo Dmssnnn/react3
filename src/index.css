@@ -1,0 +1,76 @@
+body {
+  background-color: #6463E7;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "kub";
+  src: url(./components/fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  font-family: "kub";
+  width: 920px;
+  height: 509px;
+  margin: 100px auto;
+  background-color:#FFFFFF;
+  display: flex;
+
+
+}
+ .leftDiv {
+  width: 50%;
+  height: 509px;
+
+
+
+}
+
+.rightside {
+  width: 50%;
+  height: 509px;
+  padding: 0 3%;
+  overflow: auto;
+
+}
+
+.blockpic {
+  position: relative;
+  bottom: 70%;
+  right: 15%;
+  width: 150px;
+}
+.leftmainDiv {
+  width: 100%;
+}
+.rightside p {
+  font-size: 12px;
+}
+.righside .span {
+  font-size: 14px;
+}
+.rightside span:hover{
+  font-family: "kub";
+  color: #F47B56;
+}
+.spandiv{
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #E8E8EA;
+}
+.span-wrap:hover{
+
+}
+.span-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
